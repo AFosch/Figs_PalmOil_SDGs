@@ -52,7 +52,7 @@ The data required to train the models is not provided.
 
 3. `oil_palm_filtered.csv`: Palm oil dataset for all Indonesian villages. It is obtained by combining the data from https://nusantara-atlas.org and https://doi.org/10.5281/zenodo.4473715.
 
-4. Shapefiles: Shapefiles used to create the maps. The folder must be downloaded from Dropbox([here](https://www.dropbox.com/scl/fo/ys0r2mravtjtsahfc8pxs/h?rlkey=mdsagu3oos510tzbqyirdekxc&dl=0)).
+4. Shapefiles: Shapefiles used to create the maps. The ``shapefiles`` folder must be downloaded from [Dropbox](https://www.dropbox.com/scl/fo/ys0r2mravtjtsahfc8pxs/h?rlkey=mdsagu3oos510tzbqyirdekxc&dl=0)) and included in the main directory. 
     - `Villages_indonesia.shp`: Village boundaries Indonesia. 
     - `Missing_data.shp`: Sumatran viillages not considered in the analysis. 
     - `bd012vf3991.shp`: Malaysia country boundaries.
