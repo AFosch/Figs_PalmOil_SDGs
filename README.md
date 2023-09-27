@@ -2,9 +2,9 @@
 Repository for the study "Replanting unproductive palm oil with smallholder plantations can help achieve Sustainable Development Goals in Sumatra, Indonesia".
 
 ## Scripts
-The scripts included allow for the reproduction of the plots in the main manuscript and supplementary materials. 
+The scripts included allow for the reproduction of the plots in the main paper and supplementary materials. 
 
-The code to train the spatial regression models is available under demand.
+The code to train the spatial regression models is available under demand but the socio-economic data of the PODES must be purchased. See paper for more details.
 
 - ``Plot_Fig1.R``: Creates the figure showing the significant socio-economic characteristics of the villages with four different types of production profile: Unproductive (damaged), Unproductive (possibly replanted), Industrial or smallholder plantations. The data used to generate these plots also contains a data frame with the quality metrics estimated for each of the regression models trained  (``stats``). 
 
