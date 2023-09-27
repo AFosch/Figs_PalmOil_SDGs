@@ -25,7 +25,7 @@ The data provided includes the output from the regression models, needed to plot
 
 The data required to train the models is not provided. 
 
-1. Data_Fig1.RData: The dataset contains the socio-economic village indicators significantly associated with different the four production profiles assessed in the study. It also contains a summary table with the statistic measures of each model trained (SDM and SDEM models).
+1. *Data_Fig1.RData:* The dataset contains the socio-economic village indicators significantly associated with different the four production profiles assessed in the study. It also contains a summary table with the statistic measures of each model trained (SDM and SDEM models).
 
     - ``IN_SDM`` and ``IN_SDEM``: Output of the regression trained using 'percentage of industrial palm oil' as a dependent variable and all the socio-economic indicators as the independent ones. 
     
@@ -35,7 +35,7 @@ The data required to train the models is not provided.
 
     - ``UN_SDM`` and ``UN_SDEM``: Output of the regression model using 'percentage of unproductive (damaged) palm oil' as a dependent variable and all the socio-economic indicators as the independent ones. 
 
-2. Data_Fig3.RData: Percentage of villages in which the replanting intervention evaluated entailed positive, negative or neutral effects on the SDG indicators evaluated. 
+2. *Data_Fig3.RData:* Percentage of villages in which the replanting intervention evaluated entailed positive, negative or neutral effects on the SDG indicators evaluated. 
 
     - ``prefix``: Flag to indicate the name of the SDGs evaluated.    
     - ``vil_list_0``: Output of the counterfactual analysis (neutral impact) for the 7 SDGs evaluated. The list ``vil_list_0`` contains 7 individual matrices of dimension (11x2), where the rows indicate the provinces evaluated and the 2 indicate the 2 scenarios of the counterfactual analysis (industrial replanting or smallholder replanting). The elements of the matrices indicate the percentage of villages affected by the intervention in which no impact on SDG progress was observed. 
@@ -50,9 +50,9 @@ The data required to train the models is not provided.
 
     > All impact lists have the same structure as the one explained in ``vil_list_0``.
 
-3. `oil_palm_filtered.csv`: Palm oil dataset for all Indonesian villages. It is obtained by combining the data from https://nusantara-atlas.org and https://doi.org/10.5281/zenodo.4473715.
+3. *oil_palm_filtered.csv:* Palm oil dataset for all Indonesian villages. It is obtained by combining the data from https://nusantara-atlas.org and https://doi.org/10.5281/zenodo.4473715.
 
-4. Shapefiles: Shapefiles used to create the maps. The ``shapefiles`` folder must be downloaded from [Dropbox](https://www.dropbox.com/scl/fo/ys0r2mravtjtsahfc8pxs/h?rlkey=mdsagu3oos510tzbqyirdekxc&dl=0)) and included in the main directory. 
+5. *Shapefiles:* Shapefiles used to create the maps. The ``shapefiles`` folder must be downloaded from [Dropbox](https://www.dropbox.com/scl/fo/ys0r2mravtjtsahfc8pxs/h?rlkey=mdsagu3oos510tzbqyirdekxc&dl=0)) and included in the main directory. 
     - `Villages_indonesia.shp`: Village boundaries Indonesia. 
     - `Missing_data.shp`: Sumatran viillages not considered in the analysis. 
     - `bd012vf3991.shp`: Malaysia country boundaries.
