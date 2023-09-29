@@ -8,7 +8,7 @@ The scripts included allow for the reproduction of the plots shown in the main p
 
 - ``Plot_Fig3_Supp3_12.R``:  Creates the summary plots showing the predicted impact of replanting Unproductive (damaged) plantations with new palm oil (either industrial or smallholder profiles). The script evaluates the effects of the intervention when implemented in the region of Sumatra (Figure 3) and also in all the Sumatran provinces (Supplementary Figs. 3-15). 
 
-- ``Latex_Table1.R``:* Creates a table summarising the impact of the counterfactual analysis on all the Sumatran provinces. The output of this script is a printed table on LaTeX format. 
+- ``Latex_Table1.R``: Creates a table summarising the impact of the counterfactual analysis on all the Sumatran provinces. The output of this script is a printed table on LaTeX format. 
 
 > The code and data used to generate the maps shown on the paper could not be incorporated to the repository due to the limitations of data-sharing agreement. The shapefile for Indonesia is part of the PODES data and thus it is a property of the Indonesian Badan Pusat Statistik. 
 
